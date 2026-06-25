@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Builders of Lives Publication</title>
+    <link rel="stylesheet" href="style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+<section class="giving-header">
+        <nav>
+
+            <a href="index.html">
+                <img src="image5.png" alt="Image of the banner">
+            </a>
+
+            <div class="nav-links" id="navlinks">
+              <i class="fas fa-times" onclick="hideMenu()"></i>
+               <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="devtional.html">DEVOTIONAL</a></li>
+                    <li><a href="vision.html">VISION/MANDATE</a></li>
+                    <li><a href="giving.html">GIVING/SUPPORT</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+        <i class="fas fa-bars"onclick="showMenu()"></i>
+        </nav>
+<div class="giving-container">
+        <div class="giving-card">
+            <div class="banner-eyebrow banner-eyebrow2"> <p> Builders of Lives Publication </p></div>
+            <h1>Give & Support</h1>
+            <p2>
+                Your Support will go a long way in helping spread the gospel✨🕊️ <br>through the copies that will be printed and distributed for free "Give and it wil be given unto you.A good measure pressed down, shaken together and running over, will be poured into your lap.For with the measure you use,it will be measured to you." LUKE 6:38 NIV.
+            </p2>
+            <div class="giving-box">
+                <h3>Bank Transfer Details</h3>
+
+                <div class="giving-detail">
+                    <span class="label">Bank Name</span>
+                    <span>FIDELITY BANK PLC</span>
+                </div>
+
+                <div class="giving-detail2">
+                    <span class="label">Account Name</span>
+                    <span>BUILDER OF LIVES PUBLICATION</span>
+                </div>
+
+                <div class="giving-detail3">
+                    <span class="giving-label">Account Number</span>
+                    <span id="accountNumber">4110212020</span>
+                </div>
+
+                <button onclick="copyAccount() " class="copy-btn">
+                    Copy Account Number
+                </button>
+            </div>
+
+            <p1 class="footer-text">
+                Thank you for your support ❤️
+            </p1>
+        </div>
+    </div>
+</section>
+
+    <script>
+        function copyAccount() {
+            const accountNumber =
+                document.getElementById("accountNumber").innerText;
+
+            navigator.clipboard.writeText(accountNumber);
+
+            alert("Account number copied!");
+        }
+    </script>
+
+
+ 
+
+
+
+
+
+        
+
+
+
+    
+ 
+
+
+
+
+
+
+
+
+
+
+<!----------------footer---------------------->
+
+
+<section class="footer">
+<h4>ABOUT US</h4>
+<p>Taking The Gospel To All Nations And The Gospel of Healing The Sick To The People Of All Nations Through Excellence And Creative Wrtitting Inspired By The Holy Spirit</p>
+<div class="icons">
+    <a href="https://www.facebook.com/groups/371557838062639/?ref=share&mibextid=NSMWBT" target="_blank" rel="noopener noreferrer" aria-label="Visit us on Facebook" title="Visit us on Facebook">
+        <i class="fa-brands fa-facebook"></i>
+    </a>
+    <a href="https://wa.me/2348081038727" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp" title="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <a href="tel:+2348081038727" aria-label="Call us" title="Call us">
+        <i class="fa-solid fa-phone"></i>
+    </a>
+    <a href="mailto:ubongdarby83@gmail.com" aria-label="Email us" title="Email us">
+        <i class="fa-solid fa-envelope"></i>
+    </a>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+<!-- javascript -->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navlinks.style.right="0";}
+            function hideMenu(){
+                navlinks.style.right="-200px";
+            }
+
+    </script>
+
+</body>
+</html>
