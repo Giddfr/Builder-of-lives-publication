@@ -167,7 +167,7 @@ nav img{
 
             @media(max-width:768px){
 
-                .header h1{margin-top: -65px
+                .header h1{margin-top: auto
                   ;
                   font-weight: bolder;
                   
@@ -181,10 +181,13 @@ nav img{
                     display: block;
                 }
                 .text-box h1{ font-size: 30px;
+                  font-family: "Cinzel",serif;
                 text-align: center;
               }
               .text-box p{
-                text-align: left;
+                text-align: center;
+                font-size: x-small;
+
               }
         
                 
