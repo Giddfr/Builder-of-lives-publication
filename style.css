@@ -977,8 +977,8 @@ nav{
 
 .message{ 
   text-align:justify;
-font-weight: 200;
-font-size: smaller;
+font-weight: 100;
+font-size: x-small;
 
 }
 
@@ -999,7 +999,7 @@ font-size: smaller;
   font-size: x-small;
 }
 .prayer-box p{
-  font-size: x-small;
+  font-size:smaller;
   font-family: 'Times New Roman', Times, serif;
 
 }
