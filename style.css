@@ -963,6 +963,7 @@ nav{
 
   .devotional-content {
     padding: 20px 16px;
+    border-style:double;
 
   }
 
@@ -975,9 +976,9 @@ nav{
   }
 
 .message{ 
-  text-align: justify;
-font-weight: 200;
-font-size: smaller;
+  text-align:justify;
+font-weight: 600;
+font-size: small;
 
 }
 
