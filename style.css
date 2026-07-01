@@ -1091,7 +1091,10 @@ font-size: smaller;
   font-family: 'Times New Roman', Times, serif;
 
 }
-
+.footer p{
+  font-size: xx-small;
+  font-family: 'Times New Roman', Times, serif;
+}
 
 }
 
