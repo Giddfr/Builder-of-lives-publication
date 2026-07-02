@@ -30,7 +30,7 @@
             </div>
         <i class="fas fa-bars"onclick="showMenu()"></i>
         </nav>
-<h1>VISION/MANDATE</h1>
+<h1 id="typing"  class="hero-title cursor"></h1>
 </section>
 
 <!---vison/mandate content-->
@@ -130,6 +130,31 @@
   };
 </script>
 <script defer src="/_vercel/insights/script.js"></script>
+
+<script>
+const typingElement = document.getElementById("typing");
+const text = "VISION/MANDATE";
+const speed = 70;
+
+let i = 0;
+
+function typeWriter() {
+  if (i < text.length) {
+    typingElement.textContent += text.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  } else {
+    typingElement.classList.add("is-finished");
+  }
+}
+
+typeWriter();
+</script>
+
+
+
+
+
 
 
 
