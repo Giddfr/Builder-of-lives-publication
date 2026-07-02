@@ -32,7 +32,7 @@
         <i class="fas fa-bars"onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
-          <h1>BUILDER OF LIVES PUBLICATION</h1>
+          <h1 id="typing"  class="hero-title cursor"></h1>
           <P>This is a non-denominational and non governmental organization with the Mandate:Taking the Gospel of God's Saving life[Evangelism-Eternal life]<br>to the people of all Nations and the Gospel of Healing the sick to the people of all Nations through excellence and creative writting inpired by the Holy spirit.</P>
           <a href="vision.html" class="Hero-btn">view Our Vision here</a>
           
@@ -402,6 +402,31 @@ document.addEventListener("DOMContentLoaded", () => {
             }
 
     </script>
+
+
+<script>
+const typingElement = document.getElementById("typing");
+const text = "BUILDER OF LIVES PUBLICATION";
+const speed = 70;
+
+let i = 0;
+
+function typeWriter() {
+  if (i < text.length) {
+    typingElement.textContent += text.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  } else {
+    typingElement.classList.add("is-finished");
+  }
+}
+
+typeWriter();
+</script>
+
+
+
+
 
 <!-----analtical----->
 
