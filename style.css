@@ -1522,8 +1522,13 @@ font-size: smaller;
 .info-item{
   margin-bottom: 18px;
   font-size: 16px;
-  color: #111;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
   
+}
+
+.info-item a{
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .scriptures{
