@@ -152,7 +152,7 @@ nav img{
     .text-box p{
         margin: 10px 0 40px;
         font: size 14px; 
-        color:#fff;
+        color:white;
     }
 
     .Hero-btn{ display: inline-block;
@@ -204,8 +204,8 @@ nav img{
                 text-align: center;
               }
               .text-box p{
-                text-align: center;
-                font-size: x-small;
+                text-align: justify;
+                font-size: xx-small;
 
               }
         
