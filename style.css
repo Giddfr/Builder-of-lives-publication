@@ -1522,6 +1522,8 @@ font-size: smaller;
 .info-item{
   margin-bottom: 18px;
   font-size: 16px;
+  color: #111;
+  
 }
 
 .scriptures{
@@ -1599,6 +1601,8 @@ button:hover{
   .contact-form h2{
     font-size:medium;
   }
+
+
 
 
   .contact-info p,.info-item{
