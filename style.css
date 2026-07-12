@@ -154,6 +154,7 @@ nav img{
         font-size: smaller;
         color:white;
         text-align: center;
+        font-family: 'Courier New', Courier, monospace
     }
 
     .Hero-btn{ display: inline-block;
